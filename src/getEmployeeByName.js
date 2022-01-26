@@ -13,10 +13,11 @@ function getEmployeeByName(employeeName) {
   // seu código aqui
   if (employeeName === undefined) return {};
 
-  const findNome = data.employees.find((person) => person.firstName === employeeName || person.lastName === employeeName);
+  const findNome = data.employees.find((person) =>
+    person.firstName === employeeName || person.lastName === employeeName);
   return findNome;
 }
 
-console.log(getEmployeeByName('Wishart'));
+console.log(getEmployeeByName('Wilburn'));
 
 module.exports = getEmployeeByName;
