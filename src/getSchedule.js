@@ -30,7 +30,7 @@ const allDays = () => {
     }
     return acc;
   }, {});
-}
+};
 
 // Passo 2.0 - Responde a função principal
 // Verifica se o parâmetro recebido é o dia OU animal
